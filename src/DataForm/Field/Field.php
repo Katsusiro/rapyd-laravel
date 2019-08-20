@@ -575,9 +575,9 @@ abstract class Field extends Widget
 
                     $this->relation->detach($old_data);
 
-                    if ($data=='') {
+                    /*if ($data=='') {
                         continue;
-                    }
+                    }*/
 
                     if (is_callable($this->extra_attributes)) {
                         $callable = $this->extra_attributes;
